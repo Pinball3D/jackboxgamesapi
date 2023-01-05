@@ -6,3 +6,5 @@ The app tag can be found in jbg.config.jet in the games directory
 
 # How To Use
 make an instance of the host() class and input an appTag. Use the appTags enum.
+
+SEE EXAMPLE.PY
