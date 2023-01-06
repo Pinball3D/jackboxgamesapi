@@ -1,18 +1,7 @@
 import json
 import uuid
-from enum import Enum
 import websocket
 
-
-class appTags(Enum):
-    QUIPLASH = "quiplash"
-    QUIPLASH2 = "quiplash2"
-    QUIPLASH3 = "quiplash3"
-    FIBBAGE = "fibbage"
-    FIBBAGE2 = "fibbage2"
-    FIBBAGE3 = "fibbage3"
-    FIBBAGE4 = "fibbage4"
-    WHEELOFENORMOUSPROPORTIONS = "the-wheel"
 
 class host():
     def __init__(self, appTag):
@@ -33,6 +22,3 @@ class host():
             print(message)
         wsapp = websocket.WebSocketApp("wss://"+self.host+"/api/v2/rooms/"+self.code+"/play?role=host&format=json&host-token="+self.token, subprotocols=["ecast-v0"], on_message=on_message)
         wsapp.run_forever()
-
-
-game = host(appTags.QUIPLASH3)
