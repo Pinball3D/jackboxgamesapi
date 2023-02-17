@@ -14,7 +14,7 @@ json = {'PROTOTYPE': 'prototype', 'ECASTTESTCLIENT': 'ecast-test-client', 'QUIPL
         'QUIPLASH3': 'quiplash3', 'THEDEVILSANDTHEDETAILS': 'everyday', "CHAMP'DUP": 'worldchamps',
         "BLATHER'ROUND": 'blanky-blank', 'JOBJOB': 'apply-yourself', 'DRAWFULANIMATE': 'drawful-animate',
         'THEWHEELOFENORMOUSPROPORTIONS': 'the-wheel', 'THEPOLLMINE': 'survey-bomb', 'WEAPONSDRAWN': 'murder-detectives',
-         'QUIPLASH3STARTER': 'quiplash3-tjsp', 'TEEK.O.STARTER': 'awshirt-tjsp', 'TRIVIAMURDERPARTY2STARTER': 'triviadeath2-tjsp',
+        'QUIPLASH3STARTER': 'quiplash3-tjsp', 'TEEK.O.STARTER': 'awshirt-tjsp', 'TRIVIAMURDERPARTY2STARTER': 'triviadeath2-tjsp',
         'FIBBAGE4': 'fourbage', 'ROOMERANG': 'htmf', 'JUNKTOPIA': 'antique-freak', 'NONSENSORY': 'range-game', 'QUIXORT': 'lineup'}
 
 appTags = Enum('appTags', json)
