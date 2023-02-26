@@ -1,4 +1,4 @@
-(https://img.shields.io/github/contributors/Pinball3D/jackboxgamesapi.svg)(https://img.shields.io/github/issues/Pinball3D/jackboxgamesapi.svg)
+<img src='https://img.shields.io/github/contributors/Pinball3D/jackboxgamesapi.svg'/><img src='https://img.shields.io/github/issues/Pinball3D/jackboxgamesapi.svg'/>
 # jackboxgamesapi
 A simple script that uses the jackbox ecast server to make a playable game.
 
